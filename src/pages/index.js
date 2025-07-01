@@ -113,10 +113,10 @@ export default function Example({ post }) {
           <pre className="bg-[#222] text-white text-xs rounded p-4 overflow-x-auto mb-4"><code>{`# To enable automatic rebuilds (like ISR), uncomment the schedule block below:
 # schedule:
 #   - cron: '*/30 * * * *'  # Every 30 minutes`}</code></pre>
-          <p className="text-white text-xs mb-4">
+          <div className="text-white text-xs mb-4">
             <strong>Cron format:</strong> <code>'*/30 * * * *'</code> means every 30 minutes.<br />
             The five fields are: <br />
-            <code>minute hour day-of-month month day-of-week</code><br />
+            <code>minute hour day-of-month month day-of-week</code>
             <ul className="list-disc pl-6">
               <li><strong>minute</strong>: 0-59</li>
               <li><strong>hour</strong>: 0-23</li>
@@ -126,7 +126,7 @@ export default function Example({ post }) {
             </ul>
             Example: <code>'0 * * * *'</code> = every hour on the hour.<br />
             Example: <code>'0 0 * * *'</code> = every day at midnight.
-          </p>
+          </div>
         </section>
         <section className="shadow-md bg-[#131313] mt-4 p-4 w-full rounded-lg">
           <h2 className="text-2xl font-semibold mb-4 text-secondary">
