@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NEXT.JS CLOUDFLARE WORKERS</title>
+        <title>NEXT.JS GITHUB PAGES</title>
       </Head>
       <div className="container max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
         <div className="shadow-md bg-[#131313] mt-4 p-4 w-full rounded-lg">
